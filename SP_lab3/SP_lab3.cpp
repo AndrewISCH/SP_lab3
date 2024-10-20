@@ -81,25 +81,24 @@ vector <pair<string, int>> analizeRegExp(const string& code){
             token = c;
             i++;
             while (i < code.length() && !regex_match(string(1,code[i]), breakNumberSequencePattern)) {
-                if (code[i] == '.') {
+                if (code[i] == '.') { 
                     if (dotted) {
                       break;
                     }
-                    else dotted = true;
+                    dotted = true;
                 }
                 if ((code[i] == 'E' || code[i] == 'e') && i+1 < code.length()) {
                     if (code[i + 1] == '+' || code[i + 1] == '-') {
-                        token += code[i];
-                        token += code[i + 1];
-                        i++;
+                        token += code[i++];
+                        token += code[i++];
                         continue;
                     }
                 }
                 token += code[i++];
             }
             regex pattern = zeroFirst ? startsWithZeroNumberPattern : startsWithNotZeroNumberPattern;
-            if (regex_match(token, pattern)) lexemes.push_back(make_pair(string(1, c), NUMBER));
-            else lexemes.push_back(make_pair(string(1, c), ERROR));
+            if (regex_match(token, pattern)) lexemes.push_back(make_pair(token, NUMBER));
+            else lexemes.push_back(make_pair(token, ERROR));
             if (i < code.length()) i--;
             continue;
         }

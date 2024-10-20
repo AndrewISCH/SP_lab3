@@ -1,6 +1,6 @@
 ﻿  SP_lab3.cpp
-C:\Users\andre\source\repos\SP_lab3\SP_lab3\SP_lab3.cpp(107,51): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\andre\source\repos\SP_lab3\SP_lab3\SP_lab3.cpp(200,77): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\andre\source\repos\SP_lab3\SP_lab3\SP_lab3.cpp(233,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\andre\source\repos\SP_lab3\SP_lab3\SP_lab3.cpp(245,51): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\andre\source\repos\SP_lab3\SP_lab3\SP_lab3.cpp(106,51): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\andre\source\repos\SP_lab3\SP_lab3\SP_lab3.cpp(199,77): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\andre\source\repos\SP_lab3\SP_lab3\SP_lab3.cpp(232,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\andre\source\repos\SP_lab3\SP_lab3\SP_lab3.cpp(244,51): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   SP_lab3.vcxproj -> C:\Users\andre\source\repos\SP_lab3\x64\Debug\SP_lab3.exe
