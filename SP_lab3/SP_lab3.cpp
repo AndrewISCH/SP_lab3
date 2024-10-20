@@ -177,7 +177,7 @@ vector <pair<string, int>> analizeRegExp(const string& code){
                         lexemes.push_back(make_pair(token, COMMENT));
                         break;
                     }
-                    if (i < code.length()) {
+                    if (i >= code.length()) {
                         lexemes.push_back(make_pair(token, ERROR));
                         break;
                     }
